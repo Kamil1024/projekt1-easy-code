@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<!--
+    This project should check if text that shared user is the same as he input in life
+    if sth is wrong then should be colored by red, if all is correct then should be colored green
+    I want also that text which user shared should be bold after write correct in real time
+-->
+<div class="container">
+    <h2>Paste here text and press button send</h2>
+    <div class="paste-text">
+        <textarea class="paste-text__textarea" id="paste"></textarea>
+        <input type="button" value="send" id="paste-button">
+    </div>
+    <div id="sended-text"></div>
+    <h2>Here You can input some text and we will check if it's the same as above
+    </h2>
+    <div class="insert-text">
+        <textarea class="insert-text__textarea" id="textarea"></textarea>
+    </div>
+    <div id="show-text"></div>
+</div>
+<script src="script1.js"></script>
+</body>
+</html>

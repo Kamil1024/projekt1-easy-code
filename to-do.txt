@@ -1,0 +1,3 @@
+to do : 
+-write form that actually send text on my e-mail
+-add this page to project and react page
